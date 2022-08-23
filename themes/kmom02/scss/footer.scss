@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #222;
+    background-color: $footer-background-color;
+    color: $footer-text-color;
+}
+
+.footer a {
+    color: $footer-text-color;
+}
+
+.footer .social {
+    font-size: 2rem;
+}
+
+.fa-linkedin{
+    padding-right: 10px;
+}

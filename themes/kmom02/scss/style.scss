@@ -1,0 +1,22 @@
+/* Normalize  */
+@import '../../node_modules/normalize.css/normalize';
+/* Varibles */
+@import 'variables';
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&family=Roboto+Condensed&display=swap');
+/* external modules */ 
+
+/* internal modules */
+@import 'typography';
+@import 'main';
+@import 'header';
+@import 'footer';
+@import 'img';
+
+
+@import 'blockquotes';
+@import 'code';
+
+
+

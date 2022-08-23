@@ -1,0 +1,75 @@
+.header,
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $header-background-color;
+}
+
+.nav a {
+    color: $links-color;
+}
+
+.title a {
+    color: $links-color;
+}
+
+.title h1 {
+    color: $links-color;
+}
+
+.title p {
+    color: $links-color;
+}
+
+.title a:hover {
+    color: $hover-color;
+
+    h1 {
+        color: $hover-color;
+    }
+
+    p {
+        color: $hover-color;
+    }
+}
+
+
+
+.title,
+.logo {
+    padding: 3em 3em 3em 0;
+}
+
+
+.title p {
+    font-style: italic;
+}
+
+.nav {
+    background-color: $header-background-color;
+}
+
+.nav a:hover {
+    color: $hover-color;
+}
+
+
+
+@media (max-width: 767px) {
+    .div {
+        width: 100%;
+    }
+
+    .title,
+    .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        display: none !important;
+    }
+}
